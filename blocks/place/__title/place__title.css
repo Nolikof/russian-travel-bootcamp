@@ -1,0 +1,25 @@
+.place__title {
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
+  margin: 0;
+  max-width: 100%;
+  grid-area: title;
+}
+
+@media all and (max-width: 975px) {
+  .place__title {
+    font-size: 2.625rem;
+    line-height: 4.92rem;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .place__title {
+    font-size: 2rem;
+    line-height: 2.187rem;
+    margin: auto;
+    max-width: 288px;
+    margin-bottom: 32px;
+  }
+}
