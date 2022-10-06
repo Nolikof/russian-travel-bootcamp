@@ -1,26 +1,26 @@
 .places {
-  max-width: 984px;
-  margin: 0 auto;
-  margin-bottom: 92px;
-  padding: 0;
+  margin: 0 148px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .places {
-    max-width: 928px;
+    margin: 0 48px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
   .places {
-    max-width: 720px;
-    margin-bottom: 90px;
+    margin: 0 24px;
+    gap: 73px;
   }
 }
 
-@media all and (max-width: 320px) {
+@media (max-width: 320px) {
   .places {
-    max-width: 100%;
-    margin-bottom: 61px;
+    margin: 0;
+    gap: 50px;
   }
 }

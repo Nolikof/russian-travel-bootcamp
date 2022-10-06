@@ -1,0 +1,17 @@
+.place__url {
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+
+  color: #aaaaaa;
+}
+
+@media (min-width: 1024px) {
+  .place__url {
+    line-height: 20px;
+  }
+}
