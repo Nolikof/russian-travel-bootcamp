@@ -20,7 +20,6 @@
 @media (min-width: 1280px) {
   .photo-grid {
     max-width: 1184px;
-    margin: 92px 48px;
     grid-template-columns: repeat(4, minmax(248px, 1fr));
   }
 }
