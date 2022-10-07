@@ -5,3 +5,9 @@
   font-weight: normal;
   line-height: 1.625rem;
 }
+
+@media (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
